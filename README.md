@@ -43,3 +43,10 @@
      
      color:red:important;
      }
+     
+     
+### Descendant 
+        #main-content #sub content p{
+         color: red;
+        
+        } 
