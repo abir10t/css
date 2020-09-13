@@ -36,3 +36,10 @@
      color: red;
      font-size : 14 px;
     }
+    
+    
+ ### The important declaration:
+     p{
+     
+     color:red:important;
+     }
