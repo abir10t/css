@@ -50,3 +50,55 @@
          color: red;
         
         } 
+        
+        
+        
+### Child Selectors :
+    main-content>p{
+       color:red;
+    }; 
+    
+    
+### Adjacent Selectors :
+    #all-articles h2+p{
+           color:green;  
+    } 
+    
+    
+### Attribute Selectors :
+     span[class~="deck"]{
+         color:purple;
+     }
+     
+     div[id]{
+      background: gray;
+     }
+     
+     a[title="search engine"]{
+       color:red;
+     }
+     
+     a[href$=PDF]{  # this worls all item whos end with pdf
+       color:green;
+     }
+     
+     for start use just ^ carat char.  https://www.youtube.com/watch?v=GVocONem9lw&list=PL4cUxeGkcC9gQeDH6xYhmO-db2mhoTSrT&index=18
+     
+     
+     
+ ### Pseudo Selectors:
+     a: hover{
+       color:red;
+     }
+     
+     
+### Hover, Active & Visited Effects:
+       a:active{
+         color:orange;
+       
+       }
+       
+ ### a:visited{
+    color:purple;
+ 
+ }
