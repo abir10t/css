@@ -109,3 +109,36 @@
      color:blue
      }
    
+   
+   
+### First & last child selector:
+    li:nth child(1), li:nth-child(7){
+        font-weight:bold;
+    
+    }
+    
+    
+    
+ ### nth of type selector:
+     1.   article:nth-of-type(1){
+       background:gray;
+    
+     }
+     
+     2.article:nth-of-type(odd){
+       background:gray;
+    
+    }
+    
+    
+
+
+
+
+
+### font-size:
+    2 types of font-size Absolute font-size, relative font-size 
+   
+    
+    
+    
